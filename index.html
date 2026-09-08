@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="মেসার্স আল আমিন স্যানেটারি — Plumber & Sanitary Service Dhaka. Plumbing, sanitary, bathroom fitting, drain cleaning ও জরুরি সার্ভিস।">
+<title>মেসার্স আল আমিন স্যানেটারি | Plumber & Sanitary Service Dhaka</title>
+<style>
+:root{--navy:#06345f;--blue:#0875d1;--light:#eef7ff;--green:#16a34a;--red:#e53935;--text:#17324d;--muted:#61758a;--white:#fff}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:"Noto Sans Bengali","Hind Siliguri",Arial,sans-serif;color:var(--text);background:#fff;line-height:1.65}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+.top{background:var(--navy);color:#fff;font-size:14px}
+.top .container{display:flex;justify-content:space-between;gap:15px;padding:7px 0}
+header{background:#fff;position:sticky;top:0;z-index:20;box-shadow:0 2px 14px #00000012}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+.brand{display:flex;align-items:center;gap:11px}
+.logo{width:52px;height:52px;border-radius:14px;background:linear-gradient(135deg,var(--blue),var(--navy));display:grid;place-items:center;color:#fff;font-size:27px;font-weight:900}
+.brand strong{display:block;font-size:20px;color:var(--navy);line-height:1.25}
+.brand span{font-size:13px;font-weight:700;color:var(--blue)}
+nav{display:flex;gap:22px;font-weight:700;font-size:14px}
+nav a:hover{color:var(--blue)}
+.menu{display:none;border:0;background:none;font-size:27px;color:var(--navy)}
+.hero{background:linear-gradient(110deg,#eff8ff 0%,#fff 52%,#dff0ff 100%);padding:65px 0 55px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:35px;align-items:center}
+.badge{display:inline-block;background:var(--blue);color:#fff;border-radius:999px;padding:6px 14px;font-size:14px;font-weight:800}
+h1{font-size:clamp(34px,5vw,58px);line-height:1.12;margin:16px 0 12px;color:var(--navy)}
+.hero h2{font-size:clamp(19px,2.3vw,27px);margin:0 0 10px}
+.hero p{font-size:17px;color:#50677d;max-width:620px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 21px;border-radius:12px;font-weight:900;color:#fff;box-shadow:0 8px 20px #00000014}
+.call{background:var(--red)} .wa{background:var(--green)} .blue{background:var(--blue)}
+.hero-card{border-radius:24px;min-height:390px;background:linear-gradient(145deg,#0b477d,#0a2948);display:grid;place-items:center;position:relative;overflow:hidden;box-shadow:0 18px 45px #07345f2b}
+.hero-card:before{content:"";position:absolute;width:300px;height:300px;border-radius:50%;background:#ffffff12;top:-80px;right:-60px}
+.plumber{font-size:130px;filter:drop-shadow(0 15px 10px #0005)}
+.hero-card .label{position:absolute;bottom:22px;left:22px;right:22px;background:#fff;border-radius:16px;padding:13px 17px;font-weight:800;color:var(--navy);text-align:center}
+.section{padding:70px 0}
+.section.alt{background:var(--light)}
+.title{text-align:center;margin-bottom:38px}
+.title h2{font-size:34px;color:var(--navy);margin:0 0 5px}
+.title p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{background:#fff;border:1px solid #dceaf6;border-radius:18px;padding:25px 18px;text-align:center;box-shadow:0 8px 25px #07345f0b}
+.icon{font-size:40px;margin-bottom:8px}
+.card h3{margin:5px 0 7px;color:var(--navy);font-size:19px}
+.card p{margin:0;color:var(--muted);font-size:14px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.about-box{background:linear-gradient(135deg,#eaf6ff,#fff);border-radius:24px;padding:35px;border:1px solid #dceaf6}
+.about-box h2{font-size:32px;color:var(--navy);margin-top:0}
+.checks{display:grid;gap:10px;padding:0;list-style:none}
+.checks li:before{content:"✓";display:inline-grid;place-items:center;width:24px;height:24px;background:var(--blue);color:#fff;border-radius:50%;margin-right:9px;font-weight:900}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.g{height:190px;border-radius:18px;background:linear-gradient(135deg,#dcefff,#f9fcff);border:1px solid #d5e6f4;display:grid;place-items:center;font-size:65px}
+.cta{background:linear-gradient(120deg,var(--navy),#0a5b9f);color:#fff;border-radius:25px;padding:42px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+.cta h2{font-size:30px;margin:0 0 6px}.cta p{margin:0;color:#d9edff}
+.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.review{background:#fff;border:1px solid #dceaf6;border-radius:18px;padding:23px}
+.stars{color:#f5a900;font-size:20px}
+.review p{color:#566c80}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.contact-card{background:#fff;border:1px solid #dceaf6;border-radius:20px;padding:28px}
+.contact-row{display:flex;gap:15px;align-items:flex-start;margin:15px 0}
+.contact-row b{display:block;color:var(--navy)}
+footer{background:#062845;color:#d9eaf8;padding:32px 0}
+.footer-grid{display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap}
+footer strong{color:#fff;font-size:18px}
+.float{position:fixed;right:17px;bottom:18px;z-index:30;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:#fff;font-size:27px;box-shadow:0 8px 25px #0004}
+@media(max-width:850px){
+ nav{display:none}.menu{display:block}
+ .hero-grid,.about,.contact{grid-template-columns:1fr}
+ .grid{grid-template-columns:repeat(2,1fr)}
+ .reviews{grid-template-columns:1fr}
+ .gallery{grid-template-columns:repeat(2,1fr)}
+ .hero-card{min-height:300px}
+ .cta{flex-direction:column;align-items:flex-start}
+}
+@media(max-width:520px){
+ .top .container{justify-content:center;font-size:12px}
+ .top .container span:first-child{display:none}
+ .brand strong{font-size:16px}.brand span{font-size:11px}.logo{width:45px;height:45px}
+ .hero{padding:42px 0}.grid,.gallery{grid-template-columns:1fr}
+ .section{padding:52px 0}.title h2{font-size:28px}
+ .actions .btn{width:100%}
+}
+</style>
+</head>
+<body>
+<div class="top"><div class="container"><span>ঢাকা ও আশপাশের এলাকায় সেবা</span><span>📞 01619608819 &nbsp; | &nbsp; 💬 WhatsApp</span></div></div>
+
+<header>
+  <div class="container nav">
+    <a class="brand" href="#home">
+      <div class="logo">🔧</div>
+      <div><strong>মেসার্স আল আমিন স্যানেটারি</strong><span>Plumber & Sanitary Service Dhaka</span></div>
+    </a>
+    <nav>
+      <a href="#home">হোম</a><a href="#services">সার্ভিস</a><a href="#about">আমাদের সম্পর্কে</a><a href="#gallery">গ্যালারি</a><a href="#reviews">রিভিউ</a><a href="#contact">যোগাযোগ</a>
+    </nav>
+    <button class="menu" aria-label="Menu" onclick="document.querySelector('nav').style.display=document.querySelector('nav').style.display==='flex'?'none':'flex'">☰</button>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+ <div class="container hero-grid">
+  <div>
+   <span class="badge">Professional Plumber & Sanitary Service</span>
+   <h1>মেসার্স আল আমিন<br>স্যানেটারি</h1>
+   <h2>Plumber & Sanitary Service Dhaka</h2>
+   <p>পাইপলাইন, বাথরুম, স্যানেটারি ফিটিং, ড্রেন পরিষ্কার ও বিভিন্ন প্লাম্বিং সমস্যার জন্য নির্ভরযোগ্য সেবা।</p>
+   <div class="actions">
+    <a class="btn call" href="tel:01619608819">📞 Call Now — 01619608819</a>
+    <a class="btn wa" href="https://wa.me/8801619608819" target="_blank" rel="noopener">💬 WhatsApp — 01619608819</a>
+   </div>
+  </div>
+  <div class="hero-card"><div class="plumber">👨‍🔧</div><div class="label">জল লাইনের সমস্যা? <b>আমরাই সমাধান!</b></div></div>
+ </div>
+</section>
+
+<section class="section" id="services">
+ <div class="container">
+  <div class="title"><h2>আমাদের সেবাসমূহ</h2><p>যে কোনো প্লাম্বিং ও স্যানেটারি কাজের জন্য যোগাযোগ করুন</p></div>
+  <div class="grid">
+   <div class="card"><div class="icon">🔧</div><h3>পাইপ লাইন সার্ভিস</h3><p>পাইপ লিক, ব্লক, লাইন পরিবর্তন ও মেরামত।</p></div>
+   <div class="card"><div class="icon">🚽</div><h3>টয়লেট সার্ভিস</h3><p>কমোড, ফ্লাশ, ড্রেন ও টয়লেটের বিভিন্ন সমস্যা।</p></div>
+   <div class="card"><div class="icon">🚿</div><h3>বাথরুম ফিটিং</h3><p>শাওয়ার, বেসিন, ট্যাপ, কমোড ও অন্যান্য ফিটিং।</p></div>
+   <div class="card"><div class="icon">🚰</div><h3>স্যানেটারি ফিটিং</h3><p>স্যানেটারি পণ্য স্থাপন ও প্রয়োজনীয় মেরামত।</p></div>
+   <div class="card"><div class="icon">🌀</div><h3>ড্রেন ক্লিনিং</h3><p>ব্লক ড্রেন পরিষ্কার ও পানি নিষ্কাশনের সমাধান।</p></div>
+   <div class="card"><div class="icon">💧</div><h3>পানি লিকেজ</h3><p>গোপন বা দৃশ্যমান পানি লিক শনাক্ত ও মেরামত।</p></div>
+   <div class="card"><div class="icon">🏠</div><h3>বাসাবাড়ির কাজ</h3><p>বাড়ি, ফ্ল্যাট ও অফিসের প্লাম্বিং সার্ভিস।</p></div>
+   <div class="card"><div class="icon">⚡</div><h3>জরুরি সার্ভিস</h3><p>জরুরি প্রয়োজনে দ্রুত যোগাযোগ করুন।</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="section alt" id="about">
+ <div class="container about">
+  <div class="about-box">
+   <h2>আমাদের সম্পর্কে</h2>
+   <p><b>মেসার্স আল আমিন স্যানেটারি</b> — Plumber & Sanitary Service Dhaka। ঢাকা ও আশপাশের এলাকায় প্লাম্বিং ও স্যানেটারি কাজের জন্য পেশাদার সেবা দেওয়ার লক্ষ্য নিয়ে কাজ করছি।</p>
+   <ul class="checks">
+    <li>দক্ষ টেকনিশিয়ান</li><li>দ্রুত সেবা</li><li>সঠিকভাবে কাজ সম্পন্ন</li><li>গ্রাহক সন্তুষ্টি আমাদের লক্ষ্য</li>
+   </ul>
+  </div>
+  <div class="about-box">
+   <h2>কেন আমাদের বেছে নেবেন?</h2>
+   <p>আপনার সমস্যার সঠিক সমাধান, কাজের পরিষ্কার মান এবং সময়মতো সার্ভিস—এই বিষয়গুলোকে আমরা গুরুত্ব দিই।</p>
+   <div class="actions"><a class="btn call" href="tel:01619608819">📞 এখনই কল করুন</a><a class="btn wa" href="https://wa.me/8801619608819" target="_blank">💬 WhatsApp</a></div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="gallery">
+ <div class="container">
+  <div class="title"><h2>আমাদের কাজের গ্যালারি</h2><p>আপনার কাজের ছবি এখানে যোগ করতে পারবেন</p></div>
+  <div class="gallery">
+   <div class="g">🔧</div><div class="g">🚿</div><div class="g">🚽</div><div class="g">🚰</div><div class="g">🛠️</div><div class="g">🏠</div>
+  </div>
+ </div>
+</section>
+
+<section class="section alt" id="reviews">
+ <div class="container">
+  <div class="title"><h2>গ্রাহকদের মতামত</h2><p>আপনার প্রকৃত কাস্টমার রিভিউ এখানে যোগ করুন</p></div>
+  <div class="reviews">
+   <div class="review"><div class="stars">★★★★★</div><p>“কাজ সুন্দরভাবে করে দিয়েছেন। সময়মতো এসে সমস্যার সমাধান করেছেন।”</p><b>— রাকিব, ঢাকা</b></div>
+   <div class="review"><div class="stars">★★★★★</div><p>“প্লাম্বিংয়ের সমস্যার দ্রুত সমাধান পেয়েছি। ব্যবহারও ভালো।”</p><b>— সুমন, ঢাকা</b></div>
+   <div class="review"><div class="stars">★★★★★</div><p>“বাথরুম ফিটিংয়ের কাজ পরিষ্কারভাবে করেছেন। ধন্যবাদ।”</p><b>— তানিয়া, ঢাকা</b></div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="contact">
+ <div class="container">
+  <div class="cta"><div><h2>আপনার প্লাম্বিং সমস্যা আছে?</h2><p>আজই ফোন বা WhatsApp-এ যোগাযোগ করুন।</p></div><div class="actions"><a class="btn call" href="tel:01619608819">📞 01619608819</a><a class="btn wa" href="https://wa.me/8801619608819" target="_blank">💬 WhatsApp</a></div></div>
+  <div class="contact" style="margin-top:22px">
+   <div class="contact-card"><h2>যোগাযোগ</h2><div class="contact-row">📞<div><b>ফোন</b><a href="tel:01619608819">01619608819</a></div></div><div class="contact-row">💬<div><b>WhatsApp</b><a href="https://wa.me/8801619608819" target="_blank">WhatsApp-এ মেসেজ করুন</a></div></div><div class="contact-row">📍<div><b>সার্ভিস এলাকা</b>ঢাকা ও আশপাশের এলাকা</div></div></div>
+   <div class="contact-card"><h2>Google Maps</h2><p>আপনার ব্যবসার সঠিক Google Maps লিংক এখানে বসালে গ্রাহকরা সরাসরি লোকেশন দেখতে পারবেন।</p><a class="btn blue" href="https://www.google.com/maps/" target="_blank" rel="noopener">🗺️ Google Maps খুলুন</a></div>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer><div class="container footer-grid"><div><strong>মেসার্স আল আমিন স্যানেটারি</strong><br>Plumber & Sanitary Service Dhaka</div><div>📞 01619608819 &nbsp; | &nbsp; 💬 WhatsApp</div><div>© 2026 All Rights Reserved.</div></div></footer>
+<a class="float" href="https://wa.me/8801619608819" target="_blank" aria-label="WhatsApp">◉</a>
+</body>
+</html>
